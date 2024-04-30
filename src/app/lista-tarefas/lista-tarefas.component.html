@@ -4,7 +4,7 @@
       + Nova Tarefa
     </button>
   </div>
-  <form class="formulario ff-prompt" [formGroup]="formulario" *ngIf="formAberto">
+  <form [@showStateTrigger]="" class="formulario ff-prompt" [formGroup]="formulario" *ngIf="formAberto">
     <label for="descricao">Descrição da tarefa</label>
     <input required type="text" formControlName="descricao" placeholder="Digite a tarefa"
       [ngClass]="campoValidado('descricao')">
