@@ -28,11 +28,11 @@ export const highlightedStateTrigger = trigger('highlightedState', [
       })
     ),
 
-    animate(200),
+    animate(300),
   ]),
 ]);
 
-export const showStateTrigger = trigger('shownState', [
+export const shownStateTrigger = trigger('shownState', [
   state('notShown', style({})),
   state('shown', style({})),
   transition('notShown => shown', [

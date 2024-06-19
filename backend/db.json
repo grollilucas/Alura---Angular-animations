@@ -9,17 +9,10 @@
     },
     {
       "id": 2,
-      "descricao": "teste 2",
+      "descricao": "teste2",
       "statusFinalizado": false,
       "categoria": "Casa",
       "prioridade": "Normal"
-    },
-    {
-      "id": 3,
-      "descricao": "testeeeee",
-      "statusFinalizado": false,
-      "categoria": "Trabalho",
-      "prioridade": "Baixa"
     }
   ]
 }
